@@ -314,6 +314,7 @@ img {
 	transform: rotate(-15deg);
 }
 
+/*=============== BUTTON ===============*/
 .button {
 	display: inline-flex;
 	align-items: center;
@@ -339,14 +340,43 @@ img {
 	transform: translateX(.25rem);
 }
 
-
-
-/*=============== BUTTON ===============*/
-
-
 /*=============== ABOUT ===============*/
+.about {
+	position: relative;
+}
 
+.about__container {
+	row-gap: 3rem;
+}
 
+.about__data {
+	text-align: center;
+}
+
+.about__title img {
+	width: 30px;
+}
+
+.about__title div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: .5rem;
+}
+
+.about__img {
+	width: 300px;
+	justify-self: center;
+}
+
+.about__leaf {
+	width: 100px;
+	opacity: .2;
+	position: absolute;
+	right: -1.5rem;
+	bottom: 11rem;
+	transform: rotate(-15deg);
+}
 /*=============== POPULAR ===============*/
 
 
